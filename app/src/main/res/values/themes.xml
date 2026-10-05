@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.ProLock360" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+    <style name="Theme.ProLock360" parent="Base.Theme.ProLock360" />
+    <style name="Theme.ProLock360.NoActionBar" parent="Theme.ProLock360">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>
